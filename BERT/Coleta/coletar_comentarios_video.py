@@ -11,7 +11,7 @@ import requests
 # CONFIGURAÇÃO
 # ==============================
 
-API_KEY = os.environ.get("YOUTUBE_API_KEY", "AIzaSyADZIjaiLSJejJvfY5NJq98wqUcLM6JfgE")
+API_KEY = os.environ.get("YOUTUBE_API_KEY", "COLOQUE_SUA_API_KEY_AQUI")
 
 COMMENTS_URL = "https://www.googleapis.com/youtube/v3/commentThreads"
 VIDEOS_URL = "https://www.googleapis.com/youtube/v3/videos"
