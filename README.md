@@ -3,7 +3,8 @@ Para realizá-los, basta subir todos os arquivos da pasta para o ambiente e exec
 
 #No Colab, selecione T4 GPU em "runtime type"
 
-#Comandos 
+#Comandos
+
 #1. Upload de todos os arquivos da pasta do experimento escolhido
 from google.colab import files
 arquivos = files.upload()
